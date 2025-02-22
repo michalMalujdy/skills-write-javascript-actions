@@ -3,3 +3,6 @@ description: 'test'
 runs:
   using: 'node16' 
   main: 'main.js'
+outputs:
+  joke-output:
+    description: 'Resulting joke'
